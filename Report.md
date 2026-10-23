@@ -51,4 +51,29 @@ flowchart TD
 
 ---
 
+### Day 2 (23 Oct 2026)
+
+```mermaid
+flowchart TD
+    A["Inspected TeleCRM lead records and custom fields"]
+    B["Reviewed lead activity history"]
+    C["Explored existing WhatsApp and Facebook workflows"]
+    D["Inspected franchise enquiry automation"]
+    E["Reviewed follow-up tasks and scheduling options"]
+    F["Identified the Add Task workflow action"]
+    A --> B --> C --> D --> E --> F
+
+    classDef done fill:#EAF3DE,stroke:#3B6D11,color:#173404
+    class A,B,C,D,E,F done
+```
+
+**Summary**
+
+- Inspected TeleCRM lead records, existing custom fields, lead categories, and activity history.
+- Reviewed existing WhatsApp and Facebook workflows for enquiry routing, lead assignment, and automated customer responses.
+- Examined franchise enquiry workflows covering operating preferences, showroom visit timing, and franchise manager call requests.
+- Explored TeleCRM's follow-up task system, including assignees, task statuses, priorities, and custom scheduling.
+- Identified the `Add Task` action in the workflow builder and reviewed its available configuration fields.
+- Documented existing automation capabilities and identified areas requiring further verification before implementation.
+
 <!-- To add a new day: copy the Day 1 block, paste it above the previous day, and update the date, flowchart tasks and summary. -->
