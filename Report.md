@@ -25,7 +25,7 @@ flowchart LR
 
 Newest day first.
 
-### Day 1 (23 Oct 2026)
+### Day 1 (22 Oct 2026)
 
 ```mermaid
 flowchart TD
